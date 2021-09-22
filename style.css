@@ -1,0 +1,25 @@
+.title{
+    text-align: center;
+    font-size: 50px;
+    position:relative; top: -320px;
+    color: white;
+}
+
+footer{
+    background-color: rgb(8, 59, 59);
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+footer>p {
+    position: relative;bottom: -40px;
+}
+.heading {
+    font-size: 35px;
+    color: rgb(27, 133, 133);
+    font-weight: bolder;
+}
+.bold{
+    font-weight: bolder;
+    line-height: 1em;
+}
