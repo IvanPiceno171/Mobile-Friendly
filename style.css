@@ -1,18 +1,16 @@
 .title{
-    text-align: center;
     font-size: 50px;
-    position:relative; top: -320px;
-    color: white;
+    position: absolute; top: 5vw; right: 40vw;
 }
 
 footer{
     background-color: rgb(8, 59, 59);
     height: 100px;
-    text-align: center;
-    color: white;
+    color: rgb(252, 252, 252);
 }
 footer>p {
-    position: relative;bottom: -40px;
+    position: absolute; bottom: -7vw; right: 50vw;
+
 }
 .heading {
     font-size: 35px;
