@@ -1,16 +1,18 @@
 .title{
+    text-align: center;
     font-size: 50px;
-    position: absolute; top: 5vw; right: 40vw;
+    position:absolute; top: 5vw; right: 40vw;
+    color: white;
 }
 
 footer{
     background-color: rgb(8, 59, 59);
     height: 100px;
-    color: rgb(252, 252, 252);
+    text-align: center;
+    color: rgb(253, 243, 243);
 }
 footer>p {
-    position: absolute; bottom: -7vw; right: 50vw;
-
+    position:absolute;bottom: -10.5vw;vw; right: 50vw;
 }
 .heading {
     font-size: 35px;
@@ -20,4 +22,33 @@ footer>p {
 .bold{
     font-weight: bolder;
     line-height: 2em;
+}
+
+/* media */
+
+@media only screen and (max-width:1824px) {
+    header{
+        background-color: rgb(5, 5, 5);
+    }
+}
+@media only screen and (max-width:1324px) {
+    header{
+        background-color: rgb(1, 92, 24);
+    }
+}
+@media only screen and (max-width:1024px) {
+    header{
+        background-color: rgb(5, 5, 5);
+    }
+}
+@media only screen and (max-width:768px) {
+    header{
+        background-color: salmon;
+    }
+}
+@media only screen and (max-width:500px) {
+    header{
+        background-color: red;
+    }
+    
 }
