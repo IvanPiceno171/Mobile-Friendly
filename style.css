@@ -52,3 +52,9 @@ footer>p {
     }
     
 }
+@media only screen and (max-width:800px) {
+    .bold{
+        background-color: red; font-size: larger;
+    }
+    
+}
